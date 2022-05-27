@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="video-container">
+    <div class="frame" style="overflow: hidden; height:100%">
+      <video autoplay></video>
+    </div>
+  </div>
+  <div class="filter-screen-parent"></div><!--it does not cover filter-->
+    
+  <div id="record-video"><img src="https://img.icons8.com/flat-round/48/000000/record.png"/> </div>
+  <div id="click-image"><img src="https://img.icons8.com/office/48/000000/camera--v1.png"/> </div>
+  <div class="filter-container">
+    <div style="background-color: #f4a2163d;" class="filter"> </div>
+    <div style="background-color: #e85d0440;" class="filter"> </div>
+    <div style="background-color: #ad5d5d7a;" class="filter"> </div>
+    <div style="background-color: #2195f323;" class="filter"> </div>
+    <div style="background-color: #4caf4f31;" class="filter"> </div>
+  </div>
+  
+  <div class="zoom">
+    
+    <button class="zoom-in">zoom in</button>
+    <button class="zoom-out">zoom out</button>
+  </div>
+
+  
+  <!-- timer -->
+  <div class="timer">
+    <span class="minute">00</span>:<span class="second">00</span>
+   </div>
+
+  <div class="show-gallary">
+    <img src="https://img.icons8.com/color/78/000000/google-photos.png"/>
+  </div>
+  <!--Gallary modal-->
+  
+  <!-- <div class="modal">
+    <div class="title">
+      <span style="margin-top: 10px;display: inline-block;">Gallery</span>
+      <span class="close-modal"style="float: right;margin-top:10px; margin-right: 20px;cursor: pointer;">X</span>
+    </div>
+    <div class="gallery">
+      <div class="images"> 
+        <img src="" alt="" >
+      </div>
+      <div class="video">
+        <video src="" autoplay></video>
+      </div>
+    </div>
+  </div> -->
+
+
+  <script src="script.js"></script>
+  <script src="dbScript.js"></script>
+</body>
+</html>
