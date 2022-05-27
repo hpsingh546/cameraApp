@@ -1,0 +1,15 @@
+instruction to deployement of static site on gitHub pages
+step 1: initialize git 
+git init
+step 2:staging area
+git add .
+step 3: commit your file on local repo
+git commit -m "message"
+
+step 4: add remote repo origin
+git remote add origin https://github.com/hpsingh546/cameraApp.git
+
+step 5: push all file to remote repo
+git push -u origin master
+
+step 6: Now go to setting on remote repo =>then pages=>source=> choose your branch where files present =>take as root folder =>then save
